@@ -356,7 +356,7 @@ $(function() {
             $(".close").html(/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&:/~\+#]*[\w\-\@?^=%&/~\+#])?/.test(t) ? "进入" :"搜索");
             escape(t).indexOf("%u") < 0 ? $(".shortcut2").show() :$(".shortcut3").show();
         }
-        $.ajax({url:"https://suggestion.baidu.com/su",type:"GET",dataType:"jsonp",data:{wd:t,cb:"su"},timeout:5e3});
+        $.ajax({url:"https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su",type:"GET",dataType:"jsonp",data:{wd:t,cb:"su"},timeout:5e3});
     }
     
     $(".close").click(function() {
