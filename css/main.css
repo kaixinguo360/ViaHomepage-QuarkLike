@@ -3,7 +3,7 @@ li,ul{overflow:hidden;list-style:none;text-overflow:ellipsis;white-space:nowrap;
 a{color:#000;text-decoration:none;}
 body{font-family:Arial,Roboto,'Droid Sans';background: no-repeat fixed;background-size: cover;}
 /* 主页 */
-#main{position:fixed;top:-100%;width:100%;}
+#main{position:fixed;top:-100%;left:0;right:0;width:100%;max-width:640px;margin:auto}
 #logo{margin:0 auto;width:130px;height:80px;background:no-repeat center;background-size:contain;}
 #edit{margin:22px 30px 0 30px;height:45px;border:1px solid #bbb;border-radius:99px;background-color: rgba(255,255,255,0.5);}
 #book{margin:17px 20px 0 20px;text-align:center;}
