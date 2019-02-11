@@ -1,7 +1,7 @@
 if(!localStorage.getItem("first"))
 {
     var a=["book","set","first"],
-        b=[[["find()","./images/discover.png","精选站点"],["http://www.163.com","./images/163.com.png","网易"],["http://m.shouhu.com","./images/sohu.com.png","搜狐"],["http://www.youku.com","./images/youku.com.png","优酷"],["http://m.bilibili.com","./images/bilibili.com.png","Bilibili"],["https://m.weibo.com","./images/weibo.com.png","微博"],["https://m.taobao.com","./images/taobao.com.png","淘宝"],["https://sina.cn","./images/sina.cn.png","新浪"],["http://portal.3g.qq.com","./images/qq.com.png","腾讯"],["https://www.google.com/ncr","./images/google.ru.png","Google"]],[["engines","via"],["transition",0],["wallpaper",""],["logo","./images/logo.png"],["bookcolor","black"]],0];
+        b=[[["find()","./images/discover.png","精选站点"],["https://www.163.com","./images/163.com.png","网易"],["https://m.shouhu.com","./images/sohu.com.png","搜狐"],["https://www.youku.com","./images/youku.com.png","优酷"],["https://m.bilibili.com","./images/bilibili.com.png","Bilibili"],["https://m.weibo.com","./images/weibo.com.png","微博"],["https://m.taobao.com","./images/taobao.com.png","淘宝"],["https://sina.cn","./images/sina.cn.png","新浪"],["https://portal.3g.qq.com","./images/qq.com.png","腾讯"],["https://www.google.com/ncr","./images/google.ru.png","Google"]],[["engines","via"],["transition",0],["wallpaper",""],["logo","./images/logo.png"],["bookcolor","black"]],0];
     for(var i=a.length-1;i>-1;i--)localStorage.setItem(a[i],JSON.stringify(b[i]));
     alert("感谢您的使用本主页，本页面书签和设置基于网页存储，请勿清除缓存里的网页存储。");
 }
@@ -117,47 +117,47 @@ $(function() {
     '      <ul class="find-ul">'+
     '        <li class="find-list">'+
     '                <a href="https://www.zhihu.com"><img src="images/zhihu.com.png"><p>知乎</p><p>知识分享社区</p></a>'+
-    '                <a href="http://36kr.com"><img src="images/36kr.png"><p>36kr</p><p>互联网创业资讯</p></a>'+
-    '                <a href="http://sspai.com"><img src="images/sspai.png"><p>少数派</p><p>高质量应用推荐</p></a>'+
-    '                <a href="http://www.ifanr.com"><img src="images/ifanr.png"><p>爱范儿</p><p>范科技媒体</p></a>'+
-    '                <a href="http://www.zealer.com"><img src="images/zealer.com.png"><p>ZEALER</p><p>电子产品评测网站</p></a>'+
-    '                <a href="http://www.dgtle.com"><img src="images/dgtle.png"><p>数码尾巴</p><p>分享美好数字生活</p></a>'+
-    '                <a href="http://cn.engadget.com"><img src="images/engadget.png"><p>瘾科技</p><p>科技新闻和评测</p></a>'+
+    '                <a href="https://36kr.com"><img src="images/36kr.png"><p>36kr</p><p>互联网创业资讯</p></a>'+
+    '                <a href="https://sspai.com"><img src="images/sspai.png"><p>少数派</p><p>高质量应用推荐</p></a>'+
+    '                <a href="https://www.ifanr.com"><img src="images/ifanr.png"><p>爱范儿</p><p>范科技媒体</p></a>'+
+    '                <a href="https://www.zealer.com"><img src="images/zealer.com.png"><p>ZEALER</p><p>电子产品评测网站</p></a>'+
+    '                <a href="https://www.dgtle.com"><img src="images/dgtle.png"><p>数码尾巴</p><p>分享美好数字生活</p></a>'+
+    '                <a href="https://cn.engadget.com"><img src="images/engadget.png"><p>瘾科技</p><p>科技新闻和评测</p></a>'+
     '                <a href="https://m.huxiu.com"><img src="images/huxiu.com.png"><p>虎嗅网</p><p>科技媒体</p></a>'+
-    '                <a href="http://www.pingwest.com"><img src="images/pingwest.png"><p>品玩</p><p>有品好玩的科技</p></a>'+
-    '                <a href="http://www.jianshu.com"><img src="images/jianshu.png"><p>简书</p><p>优质原创内容社区</p></a>'+
+    '                <a href="https://www.pingwest.com"><img src="images/pingwest.png"><p>品玩</p><p>有品好玩的科技</p></a>'+
+    '                <a href="https://www.jianshu.com"><img src="images/jianshu.png"><p>简书</p><p>优质原创内容社区</p></a>'+
     '                <a href="https://www.v2ex.com"><img src="images/v2ex.png"><p>V2EX</p><p>关于分享和探索的地方</p></a>'+
     '        </li>'+
     '        <li class="find-list">'+
     '           '+
-    '                <a href="http://m.douban.com"><img src="images/douban.png"><p>豆瓣</p><p>一个神奇的社区</p></a>'+
-    '                <a href="http://qingmang.me/magazines"><img src="images/qingmang.png"><p>轻芒杂志</p><p>生活兴趣杂志</p></a>'+
-    '                <a href="http://m.wufazhuce.com"><img src="images/wufazhuce.com.png"><p>ONE</p><p>韩寒监制</p></a>'+
-    '                <a href="http://m.mafengwo.cn"><img src="images/mafengwo.png"><p>马蜂窝</p><p>旅游攻略社区</p></a>'+
-    '                <a href="http://m.xiaohongshu.com"><img src="images/xiaohongshu.png"><p>小红书</p><p>可以买到国外的好东西</p></a>'+
-    '                <a href="http://m.smzdm.com"><img src="images/smzdm.png"><p>什么值得买</p><p>应该能省点钱吧</p></a>'+
+    '                <a href="https://m.douban.com"><img src="images/douban.png"><p>豆瓣</p><p>一个神奇的社区</p></a>'+
+    '                <a href="https://qingmang.me/magazines"><img src="images/qingmang.png"><p>轻芒杂志</p><p>生活兴趣杂志</p></a>'+
+    '                <a href="https://m.wufazhuce.com"><img src="images/wufazhuce.com.png"><p>ONE</p><p>韩寒监制</p></a>'+
+    '                <a href="https://m.mafengwo.cn"><img src="images/mafengwo.png"><p>马蜂窝</p><p>旅游攻略社区</p></a>'+
+    '                <a href="https://m.xiaohongshu.com"><img src="images/xiaohongshu.png"><p>小红书</p><p>可以买到国外的好东西</p></a>'+
+    '                <a href="https://m.smzdm.com"><img src="images/smzdm.png"><p>什么值得买</p><p>应该能省点钱吧</p></a>'+
     '                <a href="https://dianying.taobao.com"><img src="images/taopiaopiao.png"><p>淘票票</p><p>不看书，就看几场电影吧</p></a>'+
-    '                <a href="http://m.xiachufang.com"><img src="images/xiachufang.png"><p>下厨房</p><p>是男人就学做几道菜</p></a>'+
+    '                <a href="https://m.xiachufang.com"><img src="images/xiachufang.png"><p>下厨房</p><p>是男人就学做几道菜</p></a>'+
     '                <a href="https://enjoy.ricebook.com"><img src="images/enjoy.png"><p>ENJOY</p><p>高端美食团购</p></a>'+
-    '                <a href="http://www.o2bra.com.cn"><img src="images/o2bra.png"><p>氧气</p><p>帮她挑一件性感bra</p></a>'+
+    '                <a href="https://www.o2bra.com.cn"><img src="images/o2bra.png"><p>氧气</p><p>帮她挑一件性感bra</p></a>'+
     '        </li>'+
     '        <li class="find-list">'+
-    '                <a href="http://m.zcool.com.cn"><img src="images/zcool.png"><p>站酷网</p><p>设计师互动平台</p></a>'+
-    '                <a href="http://www.lofter.com"><img src="images/lofter.png"><p>Lofter</p><p>摄影爱好者社区</p></a>'+
-    '                <a href="http://www.behance.net"><img src="images/behance.png"><p>Behance</p><p>Adobe旗下的创意平台</p></a>'+
+    '                <a href="https://m.zcool.com.cn"><img src="images/zcool.png"><p>站酷网</p><p>设计师互动平台</p></a>'+
+    '                <a href="https://www.lofter.com"><img src="images/lofter.png"><p>Lofter</p><p>摄影爱好者社区</p></a>'+
+    '                <a href="https://www.behance.net"><img src="images/behance.png"><p>Behance</p><p>Adobe旗下的创意平台</p></a>'+
     '                <a href="https://dribbble.com"><img src="images/dribbble.png"><p>Dribbble</p><p>好设计都在这</p></a>'+
-    '                <a href="http://www.uisdc.com"><img src="images/uisdc.png"><p>优设网</p><p>设计从业者入门网站</p></a>'+
-    '                <a href="http://miniature-calendar.com"><img src="images/miniature-calendar.png"><p>小型日历</p><p>脑洞无限巨大</p></a>'+
+    '                <a href="https://www.uisdc.com"><img src="images/uisdc.png"><p>优设网</p><p>设计从业者入门网站</p></a>'+
+    '                <a href="https://miniature-calendar.com"><img src="images/miniature-calendar.png"><p>小型日历</p><p>脑洞无限巨大</p></a>'+
     '                <a href="https://thefwa.com"><img src="images/thefwa.png"><p>thefwa</p><p>网页界的奥斯卡</p></a>'+
     '                <a href="https://500px.com"><img src="images/500px.png"><p>500px</p><p>最出色的摄影社区</p></a>'+
-    '                <a href="http://m.moko.cc"><img src="images/moko.png"><p>MOKO!</p><p>娱乐人才平台</p></a>'+
+    '                <a href="https://m.moko.cc"><img src="images/moko.png"><p>MOKO!</p><p>娱乐人才平台</p></a>'+
     '        </li>'+
     '        <li class="find-list">'+
-    '                <a href="http://www.wandoujia.com/award"><img src="images/wandoujia.png"><p>豌豆荚设计</p><p>发现最优美的应用</p></a>'+
-    '                <a href="http://m.ximalaya.com"><img src="images/xmlyfm.png"><p>喜马拉雅听</p><p>音频分享平台</p></a>'+
-    '                <a href="http://www.coolapk.com"><img src="images/coolapk.png"><p>酷安</p><p>发现应用的乐趣</p></a>'+
+    '                <a href="https://www.wandoujia.com/award"><img src="images/wandoujia.png"><p>豌豆荚设计</p><p>发现最优美的应用</p></a>'+
+    '                <a href="https://m.ximalaya.com"><img src="images/xmlyfm.png"><p>喜马拉雅听</p><p>音频分享平台</p></a>'+
+    '                <a href="https://www.coolapk.com"><img src="images/coolapk.png"><p>酷安</p><p>发现应用的乐趣</p></a>'+
     '                <a href="https://developer.mozilla.org/zh-CN"><img src="images/mozilla.png"><p>Mozilla</p><p>学习web开发的最佳实践</p></a>'+
-    '                <a href="http://m.open.163.com"><img src="images/open163.png"><p>网易公开课</p><p>人chou就要多学习</p></a>'+
+    '                <a href="https://m.open.163.com"><img src="images/open163.png"><p>网易公开课</p><p>人chou就要多学习</p></a>'+
     '                <a href="https://shimo.im"><img src="images/shimo.png"><p>石墨文档</p><p>可多人实时协作的云端文档</p></a>'+
     '        </li>'+
     '      </ul>'+
@@ -253,7 +253,7 @@ $(function() {
     $(".addbook-btn0").click(function(){
         var t = $(".addbook-input").eq(0).val(),u = $(".addbook-input").eq(1).val(),p = $("#addbook-upload img").attr('src');
         if(t.length && u.length && p.length){
-            u = u.match(/^(ht|f)tp(s?):\/\//) ? u : "http://" + u;
+            u = u.match(/^(ht|f)tp(s?):\/\//) ? u : "https://" + u;
             Storage.book.push([u,p,t]);
             localStorage.setItem("book", JSON.stringify(Storage.book));
             $(".addbook-btn1").click();
@@ -322,7 +322,7 @@ $(function() {
         var t;
         switch ($(this).index()) {
           case 1:
-            t = "http://s.weibo.com/weibo/";
+            t = "https://s.weibo.com/weibo/";
             break;
 
           case 2:
@@ -330,7 +330,7 @@ $(function() {
             break;
 
           case 3:
-            t = "http://www.soku.com/m/y/video?q=";
+            t = "https://www.soku.com/m/y/video?q=";
             break;
 
           case 4:
@@ -338,7 +338,7 @@ $(function() {
             break;
 
           case 5:
-            t = "http://weixin.sogou.com/weixin?type=2&query=";
+            t = "https://weixin.sogou.com/weixin?type=2&query=";
             break;
         }
         t && (!Storage.set.transition && $(".transition").show(),self.location = t + $(".input").val());
@@ -356,7 +356,7 @@ $(function() {
             $(".close").html(/[\w\-_]+(\.[\w\-_]+)+([\w\-\.,@?^=%&:/~\+#]*[\w\-\@?^=%&/~\+#])?/.test(t) ? "进入" :"搜索");
             escape(t).indexOf("%u") < 0 ? $(".shortcut2").show() :$(".shortcut3").show();
         }
-        $.ajax({url:"http://suggestion.baidu.com/su",type:"GET",dataType:"jsonp",data:{wd:t,cb:"su"},timeout:5e3});
+        $.ajax({url:"https://suggestion.baidu.com/su",type:"GET",dataType:"jsonp",data:{wd:t,cb:"su"},timeout:5e3});
     }
     
     $(".close").click(function() {
@@ -388,10 +388,10 @@ $(function() {
             u = "https://www.google.com.hk/search?q=";
             break;
           case 'bing':
-            u = "http://cn.bing.com/search?q=";
+            u = "https://cn.bing.com/search?q=";
             break;
           case 'sm':
-            u = "http://m.sm.cn/s?q=";
+            u = "https://m.sm.cn/s?q=";
             break;
           case 'haosou':
             u = "https://www.so.com/s?q=";
